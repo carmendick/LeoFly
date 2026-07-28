@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flyer-engine"
+version = "0.1.0"
+description = "A modular flyer rendering engine."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Leo Emmanuel Udofia" }
+]
+
+keywords = [
+    "flyer",
+    "graphics",
+    "poster",
+    "python",
+    "generator",
+    "design",
+    "lions",
+    "leo"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yourusername/LeoFly"
+Documentation = "https://github.com/yourusername/LeoFly"
+Repository = "https://github.com/yourusername/LeoFly"
+Issues = "https://github.com/yourusername/LeoFly/issues"
+
+[project.scripts]
+leofly = "flyer_engine.cli:main"
